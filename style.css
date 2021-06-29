@@ -16,6 +16,19 @@ body
     color:black;
     text-align: left
 }
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+section h1, footer h2, nav a
+{
+    font-family: Raleway-VariableFont_wght;
+    ont-weight: normal
+}
+
+
+/* éléments du <div> header */
 header
 {
     background: white
@@ -23,13 +36,6 @@ header
     justify-content: space-between;
     align-items: flex-end;
 }
-#bloc_page
-{
-    width: 900px;
-    margin: auto;
-
-/* éléments du <div> header */
-
 #titre_principal
 {
     display: flex;
@@ -38,8 +44,8 @@ header
 #logo
 {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    flex-direction: row
+    align-items: strech;
 }
 
 #logo img
@@ -47,18 +53,32 @@ header
     width: 59px;
     height: 60px;
 }
-
+header h1
+{
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+header h2{
+    font-size: 1em; 
+    margin-top: 0px;
+    font-weight: normal;
+}
 /* mise en page du nav dans le header */
 
-header nav
+
+
+ 
+nav ul
 {
-    padding-top: 15px;
-    font-size: 0.8em;
-    border-top:1px solid#9298a1 ;
-    float:  right;
-    width: 150px;  
+    list-style-type: none;
+    display: flex;
 }
-header a
+nav li
+{
+    margin-right: 15px;
+}
+nav a
 
 {
     font-size: 1.3em;
@@ -66,9 +86,8 @@ header a
     padding-bottom: 3px;
     text-decoration: none;
 }
- 
-header ul
+nav a:hover
 {
-    list-style-type: none;
-    display: flex;
+    color: #760001;
+    border-bottom: 3px solid #760001;
 }
