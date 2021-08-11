@@ -2,77 +2,154 @@
 @font-face 
 {
     font-family: Raleway-VariableFont_wght;
-    src: url(polices/static/Raleway-Black.ttf); format('truetype'),
-    src: url(polices/static/Raleway-bold;ttf); format('truetype'),
+    src: url(polices/static/Raleway-Black.ttf) format('truetype');
+    src: url(polices/static/Raleway-bold;ttf) format('truetype');
     font-weight: normal;
-    font-style: normal;
+
 }
 
 /* Eléments esthétiques de la page */
 body
 {
-    background:#F2F2F2 ;
-    font-family: Arial, Helvetica, sans-serif;
-    color:black;
+    width: 80%;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background:#c08181 ;
+    font-family: Raleway-VariableFont_wght, Arial, Helvetica, sans-serif;
+    color:rgb(121, 117, 117);
     text-align: left
 }
-#bloc_page
+main
 {
-    width: 900px;
-    margin: auto;
-}
-section h1, footer h2, nav a
-{
-    font-family: Raleway-VariableFont_wght;
-    ont-weight: normal
+width: 988px;
+    background-color: khaki;
 }
 
 
-/* éléments du <div> header */
 header
 {
-    background: white
+    background-color: whitesmoke;
+   
+      
+}
+header, #titre_principal
+{
+    padding-bottom: 10px;
+}
+
+section h1, footer h2, nav a
+{
+    font-size: 1.4em;
+    font-family: Raleway-VariableFont_wght;
+    font-weight: normal
+}
+section
+{
+    
+    margin: 10px;
+    display: flex;
+  
+    
+}
+section, img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+section, article
+{
+    border-radius: 10px;
+    margin: 20px
+}
+
+
+footer 
+{
+    text-align: left;
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    
 }
+ footer li
+{
+    
+    list-style-type: none;
+    
+}
+
+footer h2
+{
+padding-left: 40px;
+}
+
+
 #titre_principal
 {
+    padding-left: 600px;
+    text-decoration: overline;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 #logo
 {
+    width: 100px;
     display: flex;
     flex-direction: row
-    align-items: strech;
+    
+    
 }
+
+.recherche
+{   
+    width: 300px;
+    
+}
+label
+{
+    background-color:#0065FC;
+    color: gray;
+    border-radius: 15px;
+} 
+
+ #submit
+{    
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        font-family: Raleway-VariableFont_wght, Arial, Helvetica, sans-serif;
+        color: blanchedalmond;
+}
+button i.fas
+{
+    background-color: cornflowerblue;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+}
+
 
 #logo img
 {
-    width: 59px;
-    height: 60px;
+    width: 69px;
+    height: 40px;
 }
-header h1
-{
-    font-size: 1.2em;
-    font-weight: normal;
-    margin: 0 0 0 10px;
-}
-header h2{
-    font-size: 1em; 
-    margin-top: 0px;
-    font-weight: normal;
-}
+
+
 /* mise en page du nav dans le header */
 
 
 
  
-nav ul
+nav ul 
 {
     list-style-type: none;
     display: flex;
+    justify-content: flex-end;
+    
 }
 nav li
 {
@@ -82,12 +159,181 @@ nav a
 
 {
     font-size: 1.3em;
-    color:#9298a1;
+    color:#0065FC;
     padding-bottom: 3px;
     text-decoration: none;
 }
-nav a:hover
-{
-    color: #760001;
-    border-bottom: 3px solid #760001;
+ a:hover
+{   
+    text-decoration: none;
+    color: gray;
+    border-bottom: 3px solid #2451ce;
+ 
 }
+
+#foot
+{
+    text-align: right;
+    right: 0px; bottom: 50px;
+}
+
+article,.hebergement__card
+{
+    text-align: left;
+}
+article, .populaire__card
+{
+    border-color: crimson;
+    border: 2px;
+}
+ #bas
+ {
+     margin: 5px;
+     display: block;
+     
+ }   
+#bas,h1,h2
+{
+    font-size: large;
+    width: 700px;
+}
+
+ 
+#barre 
+
+ { 
+
+     
+
+     vertical-align: top; 
+
+     margin: 10px; 
+
+     padding: 10px; 
+
+     text-align: left; 
+
+     display: flex; 
+
+     justify-content: space-between;  
+
+ } 
+
+ 
+ 
+
+ #barre, h3 
+
+ { 
+
+      
+
+     color: #000; 
+
+     margin:0px 
+
+      
+
+     
+
+ } 
+
+ #barre, button 
+
+ { 
+
+     border-radius: 10px; 
+
+ } 
+
+ #barre, .fas 
+
+ { 
+
+     border-radius: 100%; 
+
+     color:#0065FC; 
+
+     
+
+ } 
+
+ 
+ 
+
+.barre__card 
+
+{ 
+
+    border: 2px solid #d9d9d9; 
+
+} 
+
+.#ebergement
+{
+    
+    background-color: grey;
+    width: 62%;
+    height: 550px;
+    margin: 5px;
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+#hebergement, h1
+{
+    color: black;
+}
+#hebergement, h2
+{
+    color: black;
+    
+}
+.hebergement__card
+{
+  flex-basis: 32%;  
+}
+#populaire  
+{   background-color:#F2F2F2;
+    padding-top: 2px;
+    width: 35%;
+    height: 550px;
+    vertical-align: top;
+    display: inline;
+   
+   
+  
+    
+    
+}
+#populaire, h1
+{
+    display: inline;
+    padding-right: 70px;
+}
+
+#activites
+{
+    height: 600px;
+    width: auto;
+    padding: 10px;
+    margin: 10px; ;
+    text-align: left;
+    position: relative;
+    border: 2px solid grey;
+    display: flex;
+    
+    
+    
+}
+
+
+
+#hebergement, #populaire, #activites, .far
+{
+    color:#0065FC ;   
+}
+
+
