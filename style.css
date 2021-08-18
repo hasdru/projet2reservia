@@ -11,7 +11,7 @@
 /* Eléments esthétiques de la page */
 body
 {
-    width: 80%;
+    
     margin: 20px;
     padding: 10px;
     box-sizing: border-box;
@@ -23,14 +23,17 @@ body
 main
 {
 width: 988px;
-    background-color: khaki;
+    background-color: #F2F2F2;
 }
 
 
 header
 {
     background-color: whitesmoke;
-   
+    display: flex;
+    justify-content: space-between;
+
+
       
 }
 header, #titre_principal
@@ -46,12 +49,12 @@ section h1, footer h2, nav a
 }
 section
 {
-    
+    width: 1100px;
     margin: 10px;
     display: flex;
-  
     
 }
+
 section, img
 {
     border-top-left-radius: 10px;
@@ -67,9 +70,9 @@ section, article
 footer 
 {
     text-align: left;
-    background-color: white;
+    background-color: #F2F2F2;
     display: flex;
-    justify-content: space-between;
+    
     
 }
  footer li
@@ -84,23 +87,27 @@ footer h2
 padding-left: 40px;
 }
 
-
-#titre_principal
+#a_propos
 {
+    width: 340px;
+}
+#nos_hebergements
+{
+    width: 340px;
+}
+#assistance
+{
+    width: 340px;
+}
+#titre_principal
+{ 
     padding-left: 600px;
     text-decoration: overline;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     
 }
 #logo
 {
     width: 100px;
-    display: flex;
-    flex-direction: row
-    
-    
 }
 
 .recherche
@@ -112,8 +119,15 @@ label
 {
     background-color:#0065FC;
     color: gray;
-    border-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
 } 
+form.recherche >input
+{
+border-color: #d9d9d9;
+border-width: 0px;
+}
 
  #submit
 {    
@@ -122,15 +136,15 @@ label
         font-family: Raleway-VariableFont_wght, Arial, Helvetica, sans-serif;
         color: blanchedalmond;
 }
+
 button i.fas
 {
     background-color: cornflowerblue;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 30px;
     box-shadow: 0px 0px 2px #888;
     padding: 0.5em 0.6em;
 }
-
 
 #logo img
 {
@@ -180,6 +194,7 @@ nav a
 article,.hebergement__card
 {
     text-align: left;
+    
 }
 article, .populaire__card
 {
@@ -195,7 +210,7 @@ article, .populaire__card
 #bas,h1,h2
 {
     font-size: large;
-    width: 700px;
+    width: 900px;
 }
 
  
@@ -204,12 +219,8 @@ article, .populaire__card
  { 
 
      
-
+    margin-bottom: 10px;
      vertical-align: top; 
-
-     margin: 10px; 
-
-     padding: 10px; 
 
      text-align: left; 
 
@@ -222,70 +233,62 @@ article, .populaire__card
  
  
 
- #barre, h3 
+ #barre> h3 
 
  { 
-
-      
-
      color: #000; 
-
+     padding-top: 25px;
      margin:0px 
-
-      
-
-     
-
- } 
-
- #barre, button 
-
- { 
-
-     border-radius: 10px; 
-
- } 
+    
+} 
 
  #barre, .fas 
-
  { 
-
-     border-radius: 100%; 
-
+     border-radius:  20px;
      color:#0065FC; 
-
-     
 
  } 
 
  
  
 
-.barre__card 
+ button
 
 { 
-
+    border-radius: 0.8rem;
     border: 2px solid #d9d9d9; 
 
 } 
+#loge
+{ 
+    display: flex;
+}
+#loge> h3
+{
+padding-bottom: 20px;
+padding-left: 10px;
+margin: 0px;
+}
 
-.#ebergement
+#hebergement
 {
     
-    background-color: grey;
-    width: 62%;
-    height: 550px;
+    background-color:#F2F2F2;
     margin: 5px;
-    display: flex ;
-    flex-direction: column;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+   
+   
+   
 
 }
+
 #hebergement, h1
 {
+    
     color: black;
 }
+
 #hebergement, h2
 {
     color: black;
@@ -293,13 +296,16 @@ article, .populaire__card
 }
 .hebergement__card
 {
-  flex-basis: 32%;  
+ 
+  height:200px ;
+  width: 270px;  
+  border: solid 2px #d9d9d9;
+  margin: 10px;
 }
 #populaire  
-{   background-color:#F2F2F2;
-    padding-top: 2px;
-    width: 35%;
-    height: 550px;
+{   
+     background-color:#F2F2F2;
+    /*padding-left: 50px;*/
     vertical-align: top;
     display: inline;
    
@@ -311,23 +317,30 @@ article, .populaire__card
 #populaire, h1
 {
     display: inline;
+    /*padding-right: 70px;*/
     padding-right: 70px;
 }
-
+ 
+.populaire__card
+{
+ border: solid 2px #d9d9d9;
+}
 #activites
 {
-    height: 600px;
-    width: auto;
+    
+    height: 717px;
     padding: 10px;
     margin: 10px; ;
     text-align: left;
     position: relative;
-    border: 2px solid grey;
     display: flex;
+    justify-content: left;
     
     
     
 }
+
+
 
 
 
