@@ -15,14 +15,14 @@ body
     margin: 20px;
     padding: 10px;
     box-sizing: border-box;
-    background:#c08181 ;
+    background:#F2F2F2 ;
     font-family: Raleway-VariableFont_wght, Arial, Helvetica, sans-serif;
     color:rgb(121, 117, 117);
     text-align: left
 }
 main
 {
-width: 988px;
+width: 1200px;
     background-color: #F2F2F2;
 }
 
@@ -63,7 +63,7 @@ section, img
 section, article
 {
     border-radius: 10px;
-    margin: 20px
+    margin: 10px
 }
 
 
@@ -87,16 +87,19 @@ footer h2
 padding-left: 40px;
 }
 
-#a_propos
+#a_propos1
 {
+    padding-left: 100px;
     width: 340px;
 }
 #nos_hebergements
 {
+    padding-left:100px ;
     width: 340px;
 }
 #assistance
 {
+    padding-left: 100px;
     width: 340px;
 }
 #titre_principal
@@ -111,10 +114,20 @@ padding-left: 40px;
 }
 
 .recherche
-{   
+{   height: 30px;
     width: 300px;
+    display: flex;
     
 }
+.recherche > span
+{
+    
+    padding-right: 20px;
+    background-color: aqua;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
 label
 {
     background-color:#0065FC;
@@ -143,7 +156,7 @@ button i.fas
     display: inline-block;
     border-radius: 30px;
     box-shadow: 0px 0px 2px #888;
-    padding: 0.5em 0.6em;
+    padding: 0.8em 0.9em;
 }
 
 #logo img
@@ -180,9 +193,13 @@ nav a
  a:hover
 {   
     text-decoration: none;
-    color: gray;
-    border-bottom: 3px solid #2451ce;
+    color: #0065FC;
+    border-bottom: 3px solid #DEEBFF ;
  
+}
+a
+{
+    color: grey;
 }
 
 #foot
@@ -203,7 +220,7 @@ article, .populaire__card
 }
  #bas
  {
-     margin: 5px;
+     margin-bottom: 20px;
      display: block;
      
  }   
@@ -218,8 +235,9 @@ article, .populaire__card
 
  { 
 
-     
+     width: 700px;
     margin-bottom: 10px;
+    margin-top: 10px;
      vertical-align: top; 
 
      text-align: left; 
@@ -237,19 +255,22 @@ article, .populaire__card
 
  { 
      color: #000; 
-     padding-top: 25px;
+     padding-bottom: 5px;
      margin:0px 
     
 } 
 
  #barre, .fas 
  { 
-     border-radius:  20px;
+     border-radius:  30px;
      color:#0065FC; 
 
  } 
 
- 
+ h3
+ {
+     color: black;
+ }
  
 
  button
@@ -261,6 +282,7 @@ article, .populaire__card
 } 
 #loge
 { 
+    margin-top:20px;
     display: flex;
 }
 #loge> h3
@@ -283,6 +305,7 @@ margin: 0px;
 
 }
 
+
 #hebergement, h1
 {
     
@@ -302,8 +325,10 @@ margin: 0px;
   border: solid 2px #d9d9d9;
   margin: 10px;
 }
+
 #populaire  
 {   
+     margin-top: 35px ;
      background-color:#F2F2F2;
     /*padding-left: 50px;*/
     vertical-align: top;
@@ -314,31 +339,38 @@ margin: 0px;
     
     
 }
-#populaire, h1
+#populaire > h1
 {
     display: inline;
     /*padding-right: 70px;*/
-    padding-right: 70px;
+    padding-right: 50px;
 }
  
 .populaire__card
 {
- border: solid 2px #d9d9d9;
+    height:200px ;
+    width: 270px; 
+    border: solid 2px #d9d9d9;
 }
+
 #activites
 {
-    
     height: 717px;
     padding: 10px;
     margin: 10px; ;
     text-align: left;
     position: relative;
     display: flex;
-    justify-content: left;
-    
-    
-    
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
+#activites > h1
+{
+    
+    width: 220px;
+}
+
 
 
 
@@ -349,4 +381,88 @@ margin: 0px;
     color:#0065FC ;   
 }
 
+@media screen and (max-width: 1250px)
+{
+    main 
+    {
+        width: 1210px;
+        padding: 5px;
+        margin: 0px;
+    }
+    
 
+
+    
+    
+}
+@media screen and (max-device-width: 375px)
+{
+header {
+    padding: 0px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#titre_principal
+{
+    width: 200px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+ul.menu 
+{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#logo
+{
+    width: auto;
+}
+#barre
+{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+section 
+{
+    display: flex;
+    flex-direction: column;
+}
+#hebergement, #populaire, #activites
+{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+#activites
+{
+    height: auto;
+    display: flex;
+    
+}
+article.activites__card 
+{
+width: auto;
+height: auto;
+}
+footer
+{
+    
+    display: flex;
+    flex-direction: column;
+}
+#a_propos1, #nos_hebergements, #assistance
+{
+    padding-left: 0px;
+}
