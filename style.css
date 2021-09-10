@@ -15,26 +15,21 @@ body
     margin: 20px;
     padding: 10px;
     box-sizing: border-box;
-    background:#F2F2F2 ;
     font-family: Raleway-VariableFont_wght, Arial, Helvetica, sans-serif;
     color:rgb(121, 117, 117);
     text-align: left
 }
 main
 {
-width: 1200px;
-    background-color: #F2F2F2;
+max-width: 1200px;
+margin: auto;
 }
 
 
 header
 {
-    background-color: whitesmoke;
     display: flex;
-    justify-content: space-between;
-
-
-      
+    justify-content: space-between;   
 }
 header, #titre_principal
 {
@@ -47,12 +42,9 @@ section h1, footer h2, nav a
     font-family: Raleway-VariableFont_wght;
     font-weight: normal
 }
-section
+#hebergement_populaire
 {
-    width: 1100px;
-    margin: 10px;
     display: flex;
-    
 }
 
 section, img
@@ -70,7 +62,7 @@ section, article
 footer 
 {
     text-align: left;
-    background-color: #F2F2F2;
+    background-color:#F2F2F2 ;
     display: flex;
     
     
@@ -120,10 +112,11 @@ padding-left: 40px;
     
 }
 .recherche > span
-{
-    
+{   padding-top: 5px;
+    padding-left: 3px;
+    color: #d9d9d9;
     padding-right: 20px;
-    background-color: aqua;
+    background-color: #0065FC;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
 }
@@ -158,6 +151,11 @@ button i.fas
     box-shadow: 0px 0px 2px #888;
     padding: 0.8em 0.9em;
 }
+.fa-info-circle:before
+{
+    padding-right: 5px;
+    color:cornflowerblue;
+}
 
 #logo img
 {
@@ -185,21 +183,22 @@ nav li
 nav a
 
 {
+    
     font-size: 1.3em;
-    color:#0065FC;
     padding-bottom: 3px;
     text-decoration: none;
-}
+} 
+
  a:hover
 {   
     text-decoration: none;
-    color: #0065FC;
+    color: cornflowerblue;;
     border-bottom: 3px solid #DEEBFF ;
  
 }
 a
 {
-    color: grey;
+    color:#d9d9d9;
 }
 
 #foot
@@ -230,7 +229,10 @@ article, .populaire__card
     width: 900px;
 }
 
- 
+.fa-map-marker-alt:before
+{
+    padding-right: 5px;
+}
 #barre 
 
  { 
@@ -276,8 +278,8 @@ article, .populaire__card
  button
 
 { 
-    border-radius: 0.8rem;
-    border: 2px solid #d9d9d9; 
+    border-radius: 5.8rem;
+    border: solid 1px #d9d9d9;
 
 } 
 #loge
@@ -294,7 +296,7 @@ margin: 0px;
 
 #hebergement
 {
-    
+    width: 70%;
     background-color:#F2F2F2;
     margin: 5px;
     display: flex;
@@ -320,26 +322,24 @@ margin: 0px;
 .hebergement__card
 {
  
-  height:200px ;
-  width: 270px;  
+  height:230px ;
+  width: 30%;  
   border: solid 2px #d9d9d9;
-  margin: 10px;
+  margin: 5px;
 }
-
+.hebergement__card img
+{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
 #populaire  
-{   
-     margin-top: 35px ;
-     background-color:#F2F2F2;
-    /*padding-left: 50px;*/
-    vertical-align: top;
-    display: inline;
-   
-   
-  
-    
+{ 
+    margin-top: 15px;
+    background-color:#F2F2F2; 
     
 }
-#populaire > h1
+#populaire > h2
 {
     display: inline;
     /*padding-right: 70px;*/
@@ -347,10 +347,27 @@ margin: 0px;
 }
  
 .populaire__card
+{   
+    height: 230px; ;
+    width: 70%; 
+    border: solid 2px #d9d9d9; 
+    margin-bottom: 15px;
+}
+.populaire__card img
+{   
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.populaire__card div
+{   float: right;
+    width: 50%;
+    height: 100%;
+}
+
+#populaire  > h3
 {
-    height:200px ;
-    width: 270px; 
-    border: solid 2px #d9d9d9;
+    font-size: 0.3em;
 }
 
 #activites
@@ -371,14 +388,10 @@ margin: 0px;
     width: 220px;
 }
 
-
-
-
-
-
 #hebergement, #populaire, #activites, .far
 {
-    color:#0065FC ;   
+    color:#0065FC ; 
+    background-color:#F2F2F2 ;  
 }
 
 @media screen and (max-width: 1250px)
@@ -428,15 +441,21 @@ ul.menu
 }
 #barre
 {
-    width: 200px;
+    width: 300px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
+#barre > h3
+{
+    width: 190px;
+    padding-right: 30px;
+}
+
 section 
 {
     display: flex;
     flex-direction: column;
+    
 }
 #hebergement, #populaire, #activites
 {
@@ -444,6 +463,10 @@ section
     display: flex;
     flex-direction: column;
     
+}
+#populaire
+{
+    order: -1;
 }
 #activites
 {
@@ -465,4 +488,5 @@ footer
 #a_propos1, #nos_hebergements, #assistance
 {
     padding-left: 0px;
+}
 }
