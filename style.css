@@ -16,7 +16,7 @@ body
     padding: 10px;
     box-sizing: border-box;
     font-family: Raleway-VariableFont_wght, Arial, Helvetica, sans-serif;
-    color:rgb(121, 117, 117);
+    color: #f2f2f2;
     text-align: left
 }
 main
@@ -80,18 +80,15 @@ padding-left: 40px;
 }
 
 #a_propos1
-{
-    padding-left: 100px;
+{ 
     width: 340px;
 }
 #nos_hebergements
 {
-    padding-left:100px ;
     width: 340px;
 }
 #assistance
 {
-    padding-left: 100px;
     width: 340px;
 }
 #titre_principal
@@ -348,8 +345,8 @@ margin: 0px;
  
 .populaire__card
 {   
-    height: 230px; ;
-    width: 70%; 
+    height: 180px; ;
+    width: 350px; 
     border: solid 2px #d9d9d9; 
     margin-bottom: 15px;
 }
@@ -363,6 +360,7 @@ margin: 0px;
 {   float: right;
     width: 50%;
     height: 100%;
+    
 }
 
 #populaire  > h3
