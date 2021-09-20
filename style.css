@@ -305,17 +305,13 @@ margin: 0px;
 }
 
 
-#hebergement, h1
+#hebergement, h1 ,h2
 {
     
     color: black;
 }
 
-#hebergement, h2
-{
-    color: black;
-    
-}
+
 .hebergement__card
 {
  
@@ -330,6 +326,11 @@ margin: 0px;
     height: 50%;
     object-fit: cover;
 }
+.hebergement__card h3, span,p
+{
+    padding-left: 15px;
+}
+
 #populaire  
 { 
     margin-top: 15px;
@@ -357,7 +358,8 @@ margin: 0px;
     object-fit: cover;
 }
 .populaire__card div
-{   float: right;
+{   
+    float: right;
     width: 50%;
     height: 100%;
     
