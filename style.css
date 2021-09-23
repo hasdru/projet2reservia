@@ -394,16 +394,22 @@ margin: 0px;
     background-color:#F2F2F2 ;  
 }
 
-@media screen and (max-width: 1250px)
+@media screen and (max-width: 1024px)
 {
     main 
     {
-        width: 1210px;
+        width: 1024px;
         padding: 5px;
         margin: 0px;
     }
-    
 
+    section
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+   
 
     
     
