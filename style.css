@@ -410,7 +410,15 @@ margin: 0px;
 
     }
    
-
+header
+{
+    padding: 0px;
+    width: 1000px;
+}
+#titre_principal
+{
+    padding-left: 400px;
+}
     
     
 }
