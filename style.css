@@ -261,11 +261,14 @@ article, .populaire__card
 
  #barre, .fas 
  { 
-     border-radius:  30px;
+     border-radius:  70px;
      color:#0065FC; 
 
  } 
-
+#barre, span
+ {
+     padding-right: 15px;
+ }
  h3
  {
      color: black;
@@ -413,13 +416,16 @@ margin: 0px;
 header
 {
     padding: 0px;
-    width: 1000px;
+     
 }
 #titre_principal
 {
-    padding-left: 400px;
+    padding-right: 250px;
 }
-    
+ul.menu
+    {
+        padding: 0px;
+    }
     
 }
 @media screen and (max-device-width: 375px)
