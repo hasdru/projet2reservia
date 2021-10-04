@@ -355,6 +355,7 @@ margin: 0px;
     display: inline;
     /*padding-right: 70px;*/
     padding-right: 50px;
+    padding-bottom: 2px;
 }
  
 .populaire__card
@@ -375,7 +376,7 @@ margin: 0px;
     float: right;
     width: 50%;
     height: 100%;
-    
+
 }
 
 #populaire  > h3
