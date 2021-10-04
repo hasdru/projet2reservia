@@ -367,9 +367,10 @@ margin: 0px;
 }
 .populaire__card img
 {   
-    width: 50%;
+    width: 49%;
     height: 100%;
     object-fit: cover;
+    padding-right: 3px;
 }
 .populaire__card div
 {   
