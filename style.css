@@ -453,6 +453,11 @@ header {
     
     
 }
+body 
+{
+    padding:0px;
+    margin:0px;
+}
 
 #titre_principal
 {
@@ -477,15 +482,19 @@ ul.menu
 #barre
 {
     width: 300px;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    
 }
 #barre > h3
 {
     width: 190px;
     padding-right: 30px;
 }
-
+#loge > h3
+{
+    width: 250px;
+    padding:0px
+}
 section 
 {
     display: flex;
@@ -511,8 +520,19 @@ section
 }
 article.activites__card 
 {
-width: auto;
+width: 100%;
 height: auto;
+}
+article.populaire__card 
+{
+    width: 100%;
+    height: auto;
+    
+}
+article.hebergement__card 
+{
+    width: 100%;
+    height: auto;
 }
 footer
 {
