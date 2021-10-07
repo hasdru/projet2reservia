@@ -92,10 +92,11 @@ padding-left: 40px;
 }
 #titre_principal
 { 
-    padding-left: 600px;
-    text-decoration: overline;
+    padding-left: 600px;  
     
 }
+
+
 #logo
 {
     width: 100px;
@@ -180,6 +181,8 @@ nav li
 li span
 {
     color:#0065FC;
+    padding-top: 30px;
+    border-top: 1px solid  #0065FC ;
 }
 nav a
 {
