@@ -203,7 +203,7 @@ nav a
 
 a
 {
-    color:gray;
+    color:rgb(7, 6, 6);
 }
 
 
@@ -226,12 +226,16 @@ article,.hebergement__card
 {
     transform: scale(1.05);
 }
-
+.activites__card :hover
+{
+    transform: scale(1.05);
+}
 article, .populaire__card
 {
     border-color: crimson;
     border: 2px;
 }
+
  #bas
  {
      margin-bottom: 20px;
@@ -397,7 +401,7 @@ margin: 0px;
 
 #populaire  > h3
 {
-    font-size: 0.3em;
+    font-size: 5px;
 }
 #hebergement, #populaire > h2
 {
