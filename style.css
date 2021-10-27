@@ -16,7 +16,8 @@ body
     padding: 10px;
     box-sizing: border-box;
     font-family: Raleway-VariableFont_wght, Arial, Helvetica, sans-serif;
-    text-align: left
+    text-align: left;
+    
 }
 main
 {
@@ -202,7 +203,7 @@ nav a
 
 a
 {
-    color:#d9d9d9;
+    color:gray;
 }
 
 
@@ -217,6 +218,15 @@ article,.hebergement__card
     text-align: left;
     
 }
+  .populaire__card :hover
+{
+    transform: scale(1.05);
+}
+.hebergement__card :hover
+{
+    transform: scale(1.05);
+}
+
 article, .populaire__card
 {
     border-color: crimson;
@@ -458,6 +468,11 @@ header {
     
     
 }
+li span 
+{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0065FC;
+}
 body 
 {
     padding:0px;
@@ -538,6 +553,7 @@ article.hebergement__card
 {
     width: 100%;
     height: auto;
+    
 }
 footer
 {
@@ -545,6 +561,11 @@ footer
     display: flex;
     flex-direction: column;
 }
+img 
+{
+    width: 100%;
+}
+
 #a_propos1, #nos_hebergements, #assistance
 {
     padding-left: 0px;
