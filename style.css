@@ -17,6 +17,7 @@ body
     box-sizing: border-box;
     font-family: Raleway-VariableFont_wght, Arial, Helvetica, sans-serif;
     text-align: left;
+    background-color: #F2F2F2;
     
 }
 main
@@ -406,6 +407,7 @@ margin: 0px;
 }
 #hebergement, #populaire > h2
 {
+
     align-self: center;
 }
 #activites
