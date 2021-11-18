@@ -477,12 +477,8 @@ a
 }
 label
 {
-    background-color:#0065FC;
-    color: gray;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-
-} 
+  display: none;
+}
 
 
 .fa-map-marker-alt:before
@@ -595,15 +591,33 @@ button i.fas
   border-bottom: 1px solid  #0065FC ;
   border-top: none;
 }
-#bas,h1, 
+#bas,h1 
 {
   width: 275px;
 }
-  
+#bas,p 
+{
+font-size: smaller;
 }
-
-
-
-
+.recherche >span 
+{
+  display: none;
+}
+label
+{
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 20px;
+  color:#0065FC;
   
-  
+  cursor: pointer;
+}
+#barre 
+{
+  width: 375px;
+  display: flex;
+}
+}
