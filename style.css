@@ -605,6 +605,7 @@ font-size: smaller;
 }
 label
 {
+  
   width: 30px;
   display: flex;
   justify-content: center;
@@ -617,7 +618,13 @@ label
 }
 #barre 
 {
-  width: 375px;
+  width: 175px;
   display: flex;
+  flex-flow: column wrap;
+
+}
+h3.loge 
+{
+  font-size: smaller;
 }
 }
