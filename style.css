@@ -569,8 +569,148 @@ button i.fas
     padding-right: 5px;
     color:cornflowerblue;
 }
+section, img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+section, article
+{
+    border-radius: 10px;
+    margin: 10px
+}
+#hebergement_populaire
+{
+    display: flex;
+}
+#hebergement
+{
+    width: 70%;
+    background-color:#F2F2F2;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
 
+#hebergement, h1 ,h2
+{
+    
+    color: black;
+}
+.recherche
+{   height: 30px;
+    width: 300px;
+    display: flex;   
+}
+.recherche > span
+{   padding-top: 5px;
+    padding-left: 7px;
+    color: #d9d9d9;
+    padding-right: 15px;
+    background-color: #0065FC;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.hebergement__card
+{
+ 
+  height:230px ;
+  width: 30%;  
+  border: solid 2px #d9d9d9;
+  margin: 5px;
+  padding-bottom: 5px;
+}
+.hebergement__card img
+{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.hebergement__card h3, span,p
+{
+    padding-left: 20px;
+}
+#populaire  
+{ 
+    margin-top: 50px;
+    background-color:#F2F2F2; 
+    
+}
+#populaire > h2
+{
+    display: inline;
+    /*padding-right: 70px;*/
+
+    padding-left: 10px;
+    padding-right: 170px;
+    padding-bottom: 2px;
+}
+ 
+.populaire__card
+{   
+    height: 180px; ;
+    width: 350px; 
+    border: solid 2px #d9d9d9; 
+    
+}
+.populaire__card img
+{   
+    width: 49%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 3px;
+}
+.populaire__card div
+{   
+    float: right;
+    width: 50%;
+    height: 100%;
+
+}
+
+#populaire  > h3
+{
+    font-size: 5px;
+}
+#hebergement, #populaire > h2
+{
+    align-self: center;
+}
+#activites
+{
+    height: 717px;
+    padding: 10px;
+    margin: 10px; ;
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+#activites > h1
+{
+    
+    width: 220px;
+}
+.activites__card
+{
+  border: solid 2px transparent;
+}
+.populaire__card :hover
+{
+    transform: scale(1.05);
+}
+.hebergement__card :hover
+{
+    transform: scale(1.05);
+}
+.activites__card :hover 
+{
+  transform: scale(1.05);
+}
 @media screen and (max-width: 375px)
 {
   header
