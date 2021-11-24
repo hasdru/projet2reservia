@@ -711,6 +711,38 @@ section, article
 {
   transform: scale(1.05);
 }
+footer 
+{
+    text-align: left;
+    background-color:#F2F2F2 ;
+    display: flex;
+    
+    
+}
+ footer li
+{
+    
+    list-style-type: none;
+    
+}
+
+footer h2
+{
+padding-left: 40px;
+}
+#a_propos1
+{ 
+    width: 340px;
+}
+#nos_hebergements
+{
+    width: 340px;
+}
+#assistance
+{
+    width: 340px;
+}
+
 @media screen and (max-width: 375px)
 {
   header
@@ -767,4 +799,56 @@ h3.loge
 {
   font-size: smaller;
 }
+#hebergement
+{
+  order: 2;
+}
+#populaire
+{
+  order: 1;
+}
+#activites 
+{
+  order: 3;
+}
+#hebergement_populaire
+{
+  display: flex;
+  flex-flow: column wrap;
+}
+#hebergement
+{
+  width:350px;
+  
+}
+#populaire
+{
+  width: 350px;
+}
+.populaire__card
+{
+  width: 350px;
+}
+.hebergement__card 
+{
+ width:auto;
+  height: 250px;
+}
+.hebergement__card img 
+{
+  width: 360px;
+}
+#activites
+{
+display: inline-block;
+}
+.activites__card img
+{
+  width: 350px;
+}
+footer 
+{
+  display: inline-block;
+}
+
 }
