@@ -488,6 +488,10 @@ h3.loge
 {
   width: 100%;
 }
+#populaire > h2
+{
+  padding-right: 92px;
+}
 .populaire__card
 {
   width: 100%;
