@@ -522,4 +522,11 @@ footer
   display: inline-block;
 }
 
+footer li:hover
+{
+  color:#0065FC;
+  padding-top: 30px;
+  border-bottom: 1px solid  transparent ;
+  border-top: none;
+}
 }
