@@ -481,25 +481,29 @@ h3.loge
 }
 #hebergement
 {
-  width:350px;
+  width:100%;
   
 }
 #populaire
 {
-  width: 350px;
+  width: 100%;
 }
 .populaire__card
 {
-  width: 350px;
+  width: 100%;
+}
+.populaire__card img
+{
+  padding-right: 0px;
 }
 .hebergement__card 
 {
- width:auto;
+  width:95%;
   height: 250px;
 }
 .hebergement__card img 
 {
-  width: 360px;
+  width: 95%;
 }
 #activites
 {
