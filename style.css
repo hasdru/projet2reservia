@@ -412,7 +412,7 @@ padding-left: 40px;
   {
     width: 130px;
     display: block;
-    margin-left: 150px;
+    margin-left: 110px;
     margin-right: 0px;
   }
   li:hover
@@ -421,6 +421,10 @@ padding-left: 40px;
   padding-top: 30px;
   border-bottom: 1px solid  #0065FC ;
   border-top: none;
+}
+#titre_principal
+{
+  padding-right: 60px;
 }
 button 
 {
@@ -507,7 +511,7 @@ h3.loge
 }
 .hebergement__card img 
 {
-  width: 95%;
+  width: 100%;
 }
 #activites
 {
