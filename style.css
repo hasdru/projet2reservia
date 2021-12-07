@@ -267,7 +267,7 @@ section, article
 {
   background-color:#f2f2f2 ;
   box-shadow:  10px 5px 5px #d9d9d9;
-  height:230px ;
+  height: 230px;
   width: 30%;  
   border: solid 1px #d9d9d9;
   margin: 5px;
@@ -304,7 +304,7 @@ section, article
     background-color:#f2f2f2;
     box-shadow:  10px 5px 5px #d9d9d9;
     height: 180px; ;
-    width: 350px; 
+    width: 100%; 
     border: solid 1px #d9d9d9; 
     
 }
@@ -372,11 +372,17 @@ footer
     
     
 }
- footer li
+ footer  li
 {
-    
+  
     list-style-type: none;
     
+}
+footer li:hover
+{
+  color:#0065FC;
+  padding-top: 30px;
+  border-top: 1px solid  transparent;
 }
 
 footer h2
