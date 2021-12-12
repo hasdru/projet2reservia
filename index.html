@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/e8e3e14358.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="normalize.css"
         <title>booki</title>
     </head>
     <body>
@@ -13,7 +14,7 @@
             <header>
 
                 <div id="logo">
-                    <img src="images/logo/Booki.png" alt="Logo de Reservia" />
+                    <img src="images/logo/Booki.png" alt="Logo de Booki" />
                 </div>
                         
                  
@@ -40,19 +41,19 @@
                      
                      <form class="recherche">
                         <i class="fas fa-map-marker-alt" style="color:black"  ></i>
-                        <input type="text" name="rechercher" placeholder=" Marseille France"/> 
-                        <span >rechercher </span>
-                        <label><i class="fas fa-search"></i></label>
+                        <input type="text" name="rechercher" placeholder=" Marseille France" /> 
+                        <span id="form__research">rechercher </span>
+                        <span id="form__loupe"><i class="fas fa-search"></i></span>
                     </form>
                 </div>
 
                 <div id="barre">
 
-                    <h3 class="barre__card" >Filtres</h3>
+                    <h3>Filtres</h3>
                     
                     
                    
-                        <button class="economique barre__card" style="padding-left:0px; padding-right:0px;">
+                        <button class="economique " style="padding-left:0px; padding-right:0px;">
                             <i class="fas fa-money-bill-wave "></i>
                             <span>économique</span>
                         </button>
@@ -211,73 +212,82 @@
                
             </section>
             
-            <h1><strong>Activités à Marseilles</strong></h1>
+            
 
             <section>
-                
-            <div id="activites">
-                
-                 
-                
 
-            
-                    
-                    
-                    <article class="activites__card">
+             <h1><strong>Activités à Marseilles</strong></h1>
+
+            <div id="activites">
+              
+                <div id="column1">
+                    <article class="activites__card1__activites__column">
                         
                         <a href="#">
-                            <img src="images/activites/4_small/vieux.jpg" height="425" width="340"  alt="vieux port">
+                            <img class="activites__img" src="images/activites/4_small/vieux.jpg"   alt="vieux port">
                             <h3><strong>vieux port</strong></h3>
                         </a>  
                             
                     </article>
-                    
+                </div>
+                
+                
+               
+                <div id="activites__carde1">
 
-                    <article class="activites__card">
+                    <article class="activites__card2__activites__column">
                         <a href="#">
-                            <img src="images/activites/4_small/fort.jpg" height="170" width="210" alt="vieux port">
+                            <img class="activites__img" src="images/activites/4_small/fort.jpg"  alt="fort de Pomègues">
                             <h3><strong>Fort de Pomègues</strong></h3>
                         </a>
-                    </article>
+                </article>
 
-                    <article class="activites__card">
+                <article class="activites__card3__activites__column">
                         <a href="#">
-                            <img src="images/activites/4_small/iles.jpg"  height="170" width="210"  alt="vieux port">
+                            <img class="activites__img" src="images/activites/4_small/iles.jpg"    alt="iles du Frioul">
                             <h3><strong>Iles du Frioul</strong></h3>
                         </a>
  
-                    </article>
+                </article>
+                
+                </div>
+                
+               <div id="column2">
+                <article class="activites__card4__activites__column ">
+                    <a href="#">
+                        <img class="activites__img" src="images/activites/4_small/parc.jpg"   alt="parc National des Calanques">
+                        <h3><strong>Parc National des Calanques</strong></h3>
 
-                    <article class="activites__card">
+                    </a>
+                </article>
+               </div>
+
+               
+                
+                
+                <div id="activites__carde2 ">
+                    
+                    <article class="activites__card5__activites__column">
                         <a href="#">
-                            <img src="images/activites/4_small/parc.jpg"  height="425" width="340" alt="vieux port">
-                            <h3><strong>Parc National des Calanques</strong></h3>
-
-                        </a>
-                    </article>
-
-                    <article class="activites__card">
-                        <a href="#">
-                            <img src="images/activites/4_small/dame.jpg"  height="170" width="210" alt="vieux port">
+                            <img class="activites__img" src="images/activites/4_small/dame.jpg"   alt="Notre-Dame-de-la-Garde">
                             <h3><strong>Notre-Dame-de-la-Garde</strong></h3>
                         </a>
 
-                    </article>
+                </article>
 
-                    <article class="activites__card">
+                <article class="activites__card6__activites__column">
                         <a href="#">
-                            <img src="images/activites/4_small/parc2.jpg"  height="170" width="210" alt="vieux port">
+                            <img class="activites__img" src="images/activites/4_small/parc2.jpg"   alt="Parc Longchamp">
                             <h3><strong>Parc Longchamp</strong></h3>
                         </a>
 
-                    </article>
+                </article>
 
-
-                    
-
+                </div>
                 
-
             </div>
+                
+                 
             </section>
            
             <footer>
