@@ -84,6 +84,7 @@ nav a
     border-bottom: 1px solid #f2f2f2;
     
 }
+
 a
 {
     color:rgb(7, 6, 6);
@@ -98,6 +99,7 @@ a
 #bas >p
 {
     padding-left: 5px;
+    font-size: medium;
 }
 #bas,h1,h2
 {
@@ -112,13 +114,15 @@ a
     
 }
 .recherche
-{   height: 30px;
+{   
+    height: 40px;
     width: 300px;
     display: flex;
     
 }
 .recherche > span
-{   padding-top: 5px;
+{   
+    padding-top: 5px;
     padding-left: 7px;
     color:white;
     padding-right: 15px;
@@ -126,6 +130,7 @@ a
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 #form__loupe
 {
   display: none;
@@ -157,9 +162,10 @@ a
  #barre> h3 
 
  { 
+    font-size: small;
      color: #000; 
-     padding-bottom: 6px;
-     padding-top: 6px;
+     padding-top: 10px;
+     
      margin:0px 
     
 } 
@@ -214,11 +220,16 @@ button i.fas
     border-radius: 30px;
     box-shadow: 0px 0px 2px #888;
     padding: 0.8em 0.9em;
+    color: #0065FC;
 }
 .fa-info-circle:before
 {
     padding-right: 5px;
     color:cornflowerblue;
+}
+.fa-star:before
+{
+  color: #0065FC;
 }
 section, img
 {
@@ -247,7 +258,7 @@ section, article
 
 #hebergement, h1 ,h2
 {
-    
+    padding-bottom: 5px;
     color: black;
 }
 .recherche
@@ -263,8 +274,9 @@ section, article
   height: 230px;
   width: 30%;  
   border: solid 1px #d9d9d9;
-  margin: 5px;
+  margin: 10px;
   padding-bottom: 5px;
+  
 }
 .hebergement__card img
 {
@@ -274,7 +286,8 @@ section, article
 }
 .hebergement__card h3, span,p
 {
-    padding-left: 20px;
+    padding-left: 10px;
+    color: #000;
 }
 #populaire  
 { 
@@ -286,12 +299,11 @@ section, article
 {
     display: inline;
     /*padding-right: 70px;*/
-
     padding-left: 10px;
-    padding-right: 170px;
-    padding-bottom: 2px;
+    padding-right: 70px;
+    padding-bottom: 5px;
 }
- 
+
 .populaire__card
 {   
     background-color:#f2f2f2;
@@ -327,7 +339,7 @@ section, article
 #activites
 {
     width: 100%;
-    height: auto;
+    height: 700px;
     padding: 10px;
     margin: 10px; 
     text-align: left;
@@ -378,20 +390,25 @@ section, article
 
   
 }
-
-.activites__card1__activites__column
+.activites__column
 {
-
+width: 21%;
 height: 100%;
+}
+.column_2card
+{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
 }
 .activites__card2__activites__column
 {
-height: 49%;
+height: 30%;
 }
 .activites__card3__activites__column
 {
 
-height: 49%;
+height: 30%;
 }
 .activites__card4__activites__column
 {
@@ -520,7 +537,12 @@ font-size: smaller;
   cursor: pointer;
 */
 display: block;
-color: #0065FC;
+color: #f2f2f2;
+background-color: #0065FC;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
 }
 
 #barre > h3
@@ -531,15 +553,9 @@ text-align: left;
 {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  align-content: flex-start;
-
+  flex-direction: column;
+  
 }
-#barre ,.fas
-{
-align-items: flex-end;
-}
-
 
 h3.loge 
 {
