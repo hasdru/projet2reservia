@@ -44,6 +44,7 @@ header, #titre_principal
     width: 109px;
     height: 50px;
     padding-top: 30px;
+    margin-left: 250px;
 }
 nav ul 
 {
@@ -249,13 +250,16 @@ section, article
 #hebergement_populaire
 {
     display: flex;
+    
 }
 #hebergement
 {
-    width: 70%;
+    width: 67%;
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
+    background-color: #d9d9d9;
+    border-radius: 8px;
     
 }
 
@@ -298,9 +302,10 @@ section, article
 }
 #populaire  
 { 
-    margin-top: 19px;
-    
-    
+  width: 28%;
+    margin-top: 10px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
 }
 #populaire > h2
 {
@@ -316,7 +321,7 @@ section, article
     background-color:#f2f2f2;
     box-shadow:  10px 5px 5px #d9d9d9;
     height: 180px; ;
-    width: 100%; 
+    width: 84%; 
     border: solid 1px #d9d9d9; 
     
 }
