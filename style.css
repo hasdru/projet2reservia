@@ -22,7 +22,7 @@ body
 }
 main
 {
-max-width: 1200px;
+max-width: 1400px;
 margin: auto;
 }
 header
@@ -186,8 +186,10 @@ a
      color: black;
      font-size: medium;
  }
- 
-
+.filtres
+{
+  background-color: white;
+}
  button
 
 { 
@@ -215,7 +217,10 @@ font-size: medium;
         font-family: Raleway-VariableFont_wght, Arial, Helvetica, sans-serif;
         color: blanchedalmond;
 }
-
+.filtres
+{
+  padding-left: 0px;
+}
 button i.fas
 {
     background-color:#DEEBFF ;
@@ -224,6 +229,7 @@ button i.fas
     box-shadow: 0px 0px 2px #888;
     padding: 0.8em 0.9em;
     color: #0065FC;
+   
 }
 .fa-info-circle:before
 {
@@ -247,7 +253,6 @@ section, article
 #hebergement
 {
     width: 70%;
-    background-color:#F2F2F2;
     margin: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -302,7 +307,7 @@ section, article
     display: inline;
     /*padding-right: 70px;*/
     padding-left: 10px;
-    padding-right: 143px;
+    padding-right: 160px;
     padding-bottom: 5px;
 }
 
@@ -346,7 +351,7 @@ section, article
 #activites
 {
     width: 100%;
-    height: 700px;
+    height: 500px;
     padding: 10px;
     margin: 10px; 
     text-align: left;
@@ -417,18 +422,7 @@ height: 49%;
   object-fit: cover;
  
 }
-.populaire__card :hover
-{
-    transform: scale(1.05);
-}
-.hebergement__card :hover
-{
-    transform: scale(1.05);
-}
-.activites__card :hover 
-{
-  transform: scale(1.05);
-}
+
 footer 
 {
     text-align: left;
@@ -445,8 +439,8 @@ footer
 }
 footer li:hover
 {
+  
   color:#0065FC;
-  padding-top: 30px;
   border-top: 1px solid  transparent;
 }
 
