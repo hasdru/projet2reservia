@@ -255,7 +255,6 @@ section, article
 #hebergement
 {
     width: 67%;
-    margin: 5px;
     display: flex;
     flex-wrap: wrap;
     background-color: #d9d9d9;
@@ -303,7 +302,6 @@ section, article
 #populaire  
 { 
   width: 28%;
-    margin-top: 10px;
     background-color: #d9d9d9;
     border-radius: 8px;
 }
