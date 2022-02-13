@@ -22,7 +22,7 @@ body
 }
 main
 {
-max-width: 1400px;
+max-width: 1354px;
 margin: auto;
 }
 header
@@ -477,9 +477,9 @@ height: 100%;
 
 footer 
 {
-    width: 1380px;
+    width: 1320px;
     margin-top: 10px;
-    margin-left: 221px;
+    margin-left: 200px;
     text-align: left;
     background-color:#F2F2F2 ;
     display: flex;
