@@ -260,11 +260,12 @@ button i.fas
 section, article
 {
     border-radius: 10px;
-    margin: 10px;
+    margin: 5px;
     
 }
 #hebergement_populaire
 {
+ 
     display: flex;
     
 }
@@ -394,13 +395,13 @@ section, article
     padding: 10px;
     margin: 10px; 
     display: flex;
-    flex-wrap: wrap;
-}
+  }
 .titreAct 
 {
   margin-left: 14px;
   display: flex;
   align-items: center;
+  width: 100px;
 
 }
 
@@ -426,13 +427,15 @@ flex-direction: column;
 }
 .activites__card2__activites__column
 {
- 
-height: 50%;
+  border-radius: 10px;
+  border: solid 1px #d9d9d9;
+  height: 50%;
 }
 .activites__card3__activites__column
 {
-margin-bottom: 5px;
-height: 50%;
+  border-radius: 10px;
+  border: solid 1px #d9d9d9;
+  height: 50%;
 }
 .activites__card4__activites__column
 {
@@ -441,13 +444,15 @@ height: 100%;
 }
 .activites__card5__activites__column
 {
-
-height: 49%;
+  border-radius: 10px;
+  border: solid 1px #d9d9d9;
+  height: 49%;
 }
 .activites__card6__activites__column
 {
-margin-bottom: 5px;
-height: 49%;
+  border-radius: 10px;
+  border: solid 1px #d9d9d9;
+  height: 49%;
 }
 
 .activites__img
