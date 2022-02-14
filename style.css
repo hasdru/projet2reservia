@@ -45,7 +45,7 @@ header, #titre_principal
     width: 109px;
     height: 50px;
     padding-top: 30px;
-    margin-left: 250px;
+    margin-left: 270px;
 }
 nav ul 
 {
@@ -187,11 +187,12 @@ a
  }
  i.fas.fa-map-marker-alt
  {
+   padding: 10px;
    display: flex;
    align-items: center;
-   border-bottom-right-radius: 10px;
-   border-top-right-radius: 10px;
-   background-color: #d9d9d9;
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #f2f2f2;
  }
 #barre, span
  {
@@ -215,7 +216,7 @@ a
 
 {   
     border-radius: 30px;
-    border: solid 2px #d9d9d9;
+    border: solid 2px #f2f2f2;
 
 } 
 #loge
@@ -279,7 +280,7 @@ section, article
     width: 67%;
     display: flex;
     flex-wrap: wrap;
-    background-color: #d9d9d9;
+    background-color: #f2f2f2;
     border-radius: 8px;
     margin-right: 15px;
     
@@ -309,14 +310,14 @@ section, article
 .recherche
 { 
     height: 30px;
-    border: solid 0.5px #d9d9d9;
+    
     width: 300px;
     display: flex;   
 }
 
 .hebergement__card
 {
-  background-color:#f2f2f2 ;
+  background-color:white ;
   box-shadow:  0px 10px 25px #d9d9d9;
   height: 230px;
   width: 30%;  
@@ -341,22 +342,27 @@ section, article
 #populaire  
 { 
     width: 28%;
-    background-color: #d9d9d9;
+    background-color: #f2f2f2;
     border-radius: 8px;
     margin-left: 15px;
     padding-left: 30px;
+  
 }
 
 .titrePop
 {
   display: flex;
   align-items: center;
+  
 
 }
-
+i.fas.fa-chart-line
+{
+  margin-right: 50px;
+}
 .populaire__card
 {   
-    background-color:#f2f2f2;
+    background-color:white;
     box-shadow:  0px 10px 25px #d9d9d9;
     height: 180px; ;
     width: 84%; 
@@ -397,7 +403,6 @@ section, article
 {
     width: 100%;
     height: 500px;
-     
     display: flex;
     
   }
@@ -420,12 +425,13 @@ section, article
 {
 border-radius: 10px;
 border: solid 1px #d9d9d9;
-width: 21%;
+width: 23%;
 height: 100%;
 margin-bottom: 5px;
 }
 .column_2card
 {
+  width: 23%;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
@@ -477,7 +483,8 @@ height: 100%;
 
 footer 
 {
-    width: 1320px;
+    max-width: 1354px;
+    margin: auto;
     margin-top: 10px;
     margin-left: 200px;
     text-align: left;
