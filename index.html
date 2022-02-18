@@ -5,32 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/e8e3e14358.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="normalize.css"
+        <link rel="stylesheet" href="normalize.css">
         
     </head>
     <body>
+        <header>
+
+            <div id="logo"> 
+                <img src="images/logo/Booki.png" alt="Logo de Booki" />
+            </div>
+               
+           
+                    
+             
+           <div id="titre_principal">
+                  <nav>
+                     <ul class="menu">
+                       <li><a href="#hebergement">hebergements </a></li> 
+                       <li><a href="#activites">activités</a></li>
+                     </ul>
+                  </nav>
+
+               
+               
+            </div>
+
+        </header>
       
         <main>
-            <header>
-
-                <div id="logo">
-                    <img src="images/logo/Booki.png" alt="Logo de Booki" />
-                </div>
-                        
-                 
-               <div id="titre_principal">
-                      <nav>
-                         <ul class="menu">
-                           <li><a href="#hebergement">hebergement </a></li> 
-                           <li><a href="#activites">activités</a></li>
-                         </ul>
-                      </nav>
-    
-                   
-                   
-                </div>
-    
-            </header>
+           
                 
             <!--premiére section avec 2 <div>-->
                 
@@ -40,7 +43,7 @@
                          
                      
                      <form class="recherche">
-                        <i class="fas fa-map-marker-alt" style="color:black"  ></i>
+                        <i class="fas fa-map-marker-alt"></i>
                         <input type="text" name="rechercher" placeholder=" Marseille France"  /> 
                         <span id="form__research">rechercher </span>
                         <span id="form__loupe"><i class="fas fa-search"></i></span>
@@ -53,28 +56,28 @@
                     
                     
                    
-                        <button class="economique " style="padding-left:0px; padding-right:0px;">
+                        <button class="filtres" >
                             <i class="fas fa-money-bill-wave "></i>
-                            <span>économique</span>
+                            <span>Economique</span>
                         </button>
                     
 
                     
-                        <button class="familial" style="padding-left:0px; padding-right:0px;" >
+                        <button class="filtres"  >
                            <i class="fas fa-walking"></i>
-                           <span>familial</span>
+                           <span>Familial</span>
                         </button>
 
                     
-                       <button class="romantique" style="padding-left:0px; padding-right:0px;" >
+                       <button class="filtres"  >
                           <i class="fas fa-heart"></i>
-                          <span>romantique</span>
+                          <span>Romantique</span>
                        </button>
 
                     
-                        <button class="animaux" style="padding-left:0px; padding-right:0px;">
+                        <button class="filtres" >
                            <i class="fas fa-dog"></i>
-                           <span>animaux autorisés</span>
+                           <span>Animaux autorisés</span>
                         </button>
  
 
@@ -91,7 +94,11 @@
                
                 
                 <div id="hebergement">
-                <h2 style="margin-bottom: 5px;"><strong>hébergements à Marseilles</strong></h2>
+
+                    <div class="titreHeb">
+                        <h2><strong>hébergements à Marseilles</strong></h2> 
+                    </div>
+                
                     
                     <article class="hebergement__card">
                       <a href="#">
@@ -156,16 +163,21 @@
                         </a>
                     </article>
 
-                    <h2><strong>Afficher plus</strong></h2>
+                    <div class="titreAff">
+                        <h2><strong>Afficher plus</strong></h2>
+                    </div>
+                    
                 
                 </div>
                 
                 
 
                 <div id="populaire">
-                    
-               <h2><strong>Les plus populaires</strong></h2>
+                 <div class="titrePop">
+                    <h2><strong>Les plus populaires</strong></h2>
                     <i class="fas fa-chart-line" style="color: black;" ></i>
+                 </div>   
+              
                     
 
                     <article class="populaire__card">
@@ -214,12 +226,18 @@
             
             
 
-            <section>
+            <section id="act">
 
-             <h1><strong>Activités à Marseilles</strong></h1>
+                <div class="titreAct">
+                    <h1><strong>Activités à Marseilles</strong></h1>
+                </div>
+                
 
             <div id="activites">
               
+                
+                    
+            
                 
                     <article class="activites__column">
                         
@@ -233,7 +251,7 @@
                 
                 
                
-                <div class="activites__column column_2card">
+                <div class="column_2card">
 
                     <article class="activites__card2__activites__column">
                         <a href="#">
@@ -265,7 +283,7 @@
                
                 
                 
-                <div class="activites__column ">
+                <div class="column_2card ">
                     
                     <article class="activites__card5__activites__column">
                         <a href="#">
@@ -290,51 +308,52 @@
                  
             </section>
            
-            <footer>
+           
+        </main>
+        <footer>
                    
                  
-               <div id="a_propos1"> 
-                    <h2>A propos</h2>
+            <div id="a_propos1"> 
+                 <h2>A propos</h2>
 
-                    <ul> 
-                         <li><a href="#">Fonctionnement du site</a></li>
-                         <li><a href="#">Conditions générales de vente</a></li>
-                         <li><a href="#">Données et confidentialité</a></li>
-                    </ul>
+                 <ul> 
+                      <li><a href="#">Fonctionnement du site</a></li>
+                      <li><a href="#">Conditions générales de vente</a></li>
+                      <li><a href="#">Données et confidentialité</a></li>
+                 </ul>
 
-               </div>
+            </div>
 
-                
-                <div id="nos_hebergements">
-                    <h2>Nos hébergements</h2>
-                
-                    <ul>
-                        <li><a href="#">Charte  qualité</a></li>
-                        <li><a href="#">Soumettre votre hôtel</a></li>
-                    </ul>
-                </div>
-                    
-                
-                
+             
+             <div id="nos_hebergements">
+                 <h2>Nos hébergements</h2>
+             
+                 <ul>
+                     <li><a href="#">Charte  qualité</a></li>
+                     <li><a href="#">Soumettre votre hôtel</a></li>
+                 </ul>
+             </div>
+                 
+             
+             
 
-                <div id="assistance">
-                    <h2>Assistance</h2>
-                
-                    <ul>
-                        <li><a href="#">Centre d'aide</a></li>
-                        <li><a href="#">Nous contacter</a></li>
-                    </ul>
-                    
-                </div>
-                
-                
-                
-                
-                
+             <div id="assistance">
+                 <h2>Assistance</h2>
+             
+                 <ul>
+                     <li><a href="#">Centre d'aide</a></li>
+                     <li><a href="#">Nous contacter</a></li>
+                 </ul>
+                 
+             </div>
+             
+             
+             
+             
+             
 
 
-            </footer>
-        </main>
+         </footer>
         
     </body>
 
