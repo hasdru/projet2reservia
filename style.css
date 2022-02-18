@@ -222,6 +222,7 @@ a
 #loge
 {   margin-left: 15px;
     margin-top:20px;
+    margin-bottom: 20px;
     display: flex;
 }
 #loge> h3
@@ -257,6 +258,7 @@ button i.fas
 {
     padding-right: 5px;
     color:cornflowerblue;
+    
 }
 .fa-star:before
 {
@@ -271,7 +273,7 @@ section, article
 }
 #hebergement_populaire
 {
- 
+    margin-bottom: 20px;
     display: flex;
     
 }
@@ -399,6 +401,10 @@ i.fas.fa-chart-line
 {
     align-self: center;
 }
+#act
+{
+  margin-bottom: 20px;
+}
 #activites
 {
     width: 100%;
@@ -417,6 +423,7 @@ i.fas.fa-chart-line
 
 #activites, img
 {
+  
   border-top-left-radius: 10px;
   border-top-right-radius:10px ;
 }
@@ -431,7 +438,8 @@ margin-bottom: 5px;
 }
 .column_2card
 {
-  width: 23%;
+  margin-bottom: 2px;
+width: 23%;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
@@ -483,9 +491,10 @@ height: 100%;
 
 footer 
 {
+    height: 215px;
     max-width: 1354px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 200px;
     text-align: left;
     background-color:#F2F2F2 ;
