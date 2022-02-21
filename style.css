@@ -354,13 +354,15 @@ section, article
 .titrePop
 {
   display: flex;
-  align-items: center;
+  align-content: center;
+  
   
 
 }
 i.fas.fa-chart-line
 {
   margin-right: 50px;
+  margin-top: 15px;
 }
 .populaire__card
 {   
@@ -673,7 +675,8 @@ h3.loge
 }
 .hebergement__card 
 {
-  width:95%;
+  margin: 14px 0px 14px 0px;
+  width: 100%;
   height: 250px;
 }
 .hebergement__card img 
@@ -686,6 +689,7 @@ h3.loge
 }
 #activites
 {
+height: 100%;
 width: 100%;
 display: inline-block;
 }
